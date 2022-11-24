@@ -10,13 +10,10 @@
  */
 
 int print_mod(va_list args)
-
 {
+	(void)args;
 
-(void)args;
+	_putchar('%');
 
-_putchar('%');
-
-return (1);
-
+	return (1);
 }
